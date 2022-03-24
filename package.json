@@ -1,7 +1,7 @@
 {
     "name": "xhr-translate",
-    "version": "1.0.0",
-    "description": "",
+    "version": "1.0.6",
+    "description": "A simple translate tool",
     "main": "index.js",
     "scripts": {
         "start": "ts-node-dev src/main.ts"
@@ -10,15 +10,18 @@
         "trans": "dist/cli.js"
     },
     "files": [
-        "dist/**/*.js"
+        "dist/"
     ],
+    "readmeFilename": "README.md",
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
         "@types/md5": "^2.2.0",
         "commander": "^5.1.0",
-        "md5": "^2.2.1"
+        "md5": "^2.2.1",
+        "user": "^0.0.0",
+        "xhr-translate": "^1.0.2"
     },
     "devDependencies": {
         "@types/node": "^14.0.20"
